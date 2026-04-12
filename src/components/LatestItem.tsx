@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { useProductStore } from "../store/useProductStore";
 import Image from "next/image";
+import Link from "next/link";
 
 const LatestItem = () => {
   const { products, fetchProducts, loading, error } = useProductStore();
@@ -77,7 +78,9 @@ const LatestItem = () => {
               </h3>
 
               <button className="mt-4 w-full py-2 rounded-xl bg-gradient-to-r from-orange-500 to-pink-500 text-white text-sm font-medium hover:opacity-90 transition">
-                View Product
+               <Link href={`/products/${product.id}`}>
+  View Product
+</Link>
               </button>
             </div>
           </div>

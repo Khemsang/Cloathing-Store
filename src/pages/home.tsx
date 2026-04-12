@@ -1,5 +1,5 @@
 import React from 'react'
-import { Banner, Categories, CollectionHighlight, FlashSell, Footer, Navbar, Testimonial, TopSellingPage, TrendingProducts, VideoSection } from '../components'
+import { Banner, Categories, CollectionHighlight, Contact, FlashSell, Footer, Navbar, Testimonial, TopSellingPage, TrendingProducts, VideoSection } from '../components'
 import LatestItem from '../components/LatestItem'
 
 const Home = () => {
@@ -15,6 +15,7 @@ const Home = () => {
    <VideoSection/>
    <FlashSell/>
    <Testimonial/>
+   <Contact/>
    <Footer/>
    </>
   )

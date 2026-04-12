@@ -11,28 +11,19 @@ export const navLinks = [
   },
   {
     id: 3,
-    label: "Women",
-    path: "/shop/women",
+    label: "Contact",
+    path: "/contact",
   },
-  {
-    id: 4,
-    label: "Men's",
-    path: "/shop/men",
-  },
-  {
-    id: 5,
-    label: "Kids",
-    path: "/shop/kids",
-  },
+ 
   {
     id: 6,
-    label: "Blog",
-    path: "/blog",
+    label: "About",
+    path: "/about",
   },
   {
     id: 7,
-    label: "Pages",
-    path: "/pages",
+    label: "Blog",
+    path: "/blog",
   },
 ];
 

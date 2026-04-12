@@ -7,4 +7,5 @@ export {default as TopSellingPage} from "../components/TopSellingItem";
 export {default as VideoSection} from "../components/VideoSection";
 export {default as FlashSell} from "../components/FlashSell";
 export {default as Testimonial} from "../components/Testimonial";
+export {default as Contact} from "../components/Contact";
 export {default as Footer} from "../components/Footer";

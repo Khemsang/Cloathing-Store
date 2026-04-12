@@ -7,9 +7,9 @@ import { Logo } from '../image'
 
 const Footer = () => {
   return (
-    <div className='py-10'>
+    <div className=''>
       <div>
-        <div className='grid grid-cols-6  bg-black text-white py-10'>
+        <div className='grid grid-cols-6  bg-black text-white pt-10'>
 
           <div className='col-span-1'>
             <h1 className='text-2xl '>Brand</h1>
