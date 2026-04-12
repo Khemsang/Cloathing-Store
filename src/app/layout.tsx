@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import 'swiper/css';
 
 export const metadata: Metadata = {
   title: "Clothing Store",

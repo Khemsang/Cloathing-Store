@@ -5,4 +5,6 @@ export {default as CollectionHighlight} from "../components/CollectionHighlight"
 export {default as TrendingProducts} from "../components/TrendingProducts";
 export {default as TopSellingPage} from "../components/TopSellingItem";
 export {default as VideoSection} from "../components/VideoSection";
+export {default as FlashSell} from "../components/FlashSell";
+export {default as Testimonial} from "../components/Testimonial";
 export {default as Footer} from "../components/Footer";

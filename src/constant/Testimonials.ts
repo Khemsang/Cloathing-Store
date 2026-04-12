@@ -1,72 +1,47 @@
-export const testimonials = [
+// testReviewData.ts
+
+export interface Review {
+  id: number;
+  name: string;
+  rating: number;
+  stars: string;
+  comment: string;
+}
+
+export const testReviewData: Review[] = [
   {
     id: 1,
-    name: "John Doe",
-    message: "Amazing quality bag! Totally worth the price.",
+    name: "Test User 1",
     rating: 5,
-    image: "https://i.pravatar.cc/150?img=1",
+    stars: "⭐⭐⭐⭐⭐",
+    comment: "Excellent product, works perfectly for testing.",
   },
   {
     id: 2,
-    name: "Sarah Smith",
-    message: "Stylish and durable. I love it!",
+    name: "Test User 2",
     rating: 4,
-    image: "https://i.pravatar.cc/150?img=2",
+    stars: "⭐⭐⭐⭐",
+    comment: "Good quality and smooth experience.",
   },
   {
     id: 3,
-    name: "Michael Brown",
-    message: "Good product but delivery was a bit slow.",
-    rating: 4,
-    image: "https://i.pravatar.cc/150?img=3",
+    name: "Test User 3",
+    rating: 3,
+    stars: "⭐⭐⭐",
+    comment: "Average product, nothing special.",
   },
   {
     id: 4,
-    name: "Emily Johnson",
-    message: "Perfect for daily use. Highly recommend!",
-    rating: 5,
-    image: "https://i.pravatar.cc/150?img=4",
+    name: "Test User 4",
+    rating: 2,
+    stars: "⭐⭐",
+    comment: "Not very satisfied, needs improvement.",
   },
   {
     id: 5,
-    name: "David Wilson",
-    message: "Nice design and very comfortable to carry.",
-    rating: 5,
-    image: "https://i.pravatar.cc/150?img=5",
-  },
-  {
-    id: 6,
-    name: "Sophia Lee",
-    message: "Color is exactly as shown. Loved it!",
-    rating: 4,
-    image: "https://i.pravatar.cc/150?img=6",
-  },
-  {
-    id: 7,
-    name: "James Taylor",
-    message: "Decent bag for the price.",
-    rating: 3,
-    image: "https://i.pravatar.cc/150?img=7",
-  },
-  {
-    id: 8,
-    name: "Olivia Martin",
-    message: "Very trendy and lightweight!",
-    rating: 5,
-    image: "https://i.pravatar.cc/150?img=8",
-  },
-  {
-    id: 9,
-    name: "Daniel Anderson",
-    message: "Material feels premium. Happy with purchase.",
-    rating: 5,
-    image: "https://i.pravatar.cc/150?img=9",
-  },
-  {
-    id: 10,
-    name: "Emma Thomas",
-    message: "Good but could be a bit bigger.",
-    rating: 4,
-    image: "https://i.pravatar.cc/150?img=10",
+    name: "Test User 5",
+    rating: 1,
+    stars: "⭐",
+    comment: "Poor quality, just for testing UI.",
   },
 ];
