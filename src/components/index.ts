@@ -1,0 +1,8 @@
+export {default as Navbar} from "../components/Navbar";
+export {default as Banner} from "../components/Banner";
+export {default as Categories} from "../components/Categories";
+export {default as CollectionHighlight} from "../components/CollectionHighlight";
+export {default as TrendingProducts} from "../components/TrendingProducts";
+export {default as TopSellingPage} from "../components/TopSellingItem";
+export {default as VideoSection} from "../components/VideoSection";
+export {default as Footer} from "../components/Footer";
