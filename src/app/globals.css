@@ -1,3 +1,26 @@
 @import "tailwindcss";
 
 
+@theme {
+  --color-primary: #E8020D;
+}
+
+@layer components{
+  .container{
+    @apply max-w-6xl mx-auto px-4
+  }
+
+.primary-btn {
+  @apply bg-black text-white py-2 px-9 font-bold rounded-full hover:bg-gray-800 transition duration-300;
+}
+
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import 'swiper/css';
+import { Navbar } from "../components";
+
 
 export const metadata: Metadata = {
   title: "Clothing Store",
@@ -14,7 +16,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <body className="antialiased  ">
+          <Navbar /> 
         {children}
       </body>
     </html>

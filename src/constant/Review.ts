@@ -1,0 +1,42 @@
+export const reviews = [
+  {
+    id: 1,
+    name: "Aarav Sharma",
+    image: "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?semt=ais_hybrid&w=740&q=80",
+    date: "2026-04-10",
+    rating: 5,
+    message: "Product quality is excellent. Totally worth the price!",
+  },
+  {
+    id: 2,
+    name: "Sita Karki",
+    image: "https://i.pravatar.cc/150?img=32",
+    date: "2026-04-08",
+    rating: 4,
+    message: "Really good product but delivery was slightly delayed.",
+  },
+  {
+    id: 3,
+    name: "Rajan Thapa",
+    image: "https://i.pravatar.cc/150?img=45",
+    date: "2026-04-05",
+    rating: 5,
+    message: "Perfect fit and amazing quality. Highly recommended!",
+  },
+  {
+    id: 4,
+    name: "Anisha Rai",
+    image: "https://i.pravatar.cc/150?img=5",
+    date: "2026-04-01",
+    rating: 3,
+    message: "It's okay for the price, nothing exceptional.",
+  },
+  {
+    id: 5,
+    name: "Prakash Gurung",
+    image: "https://i.pravatar.cc/150?img=15",
+    date: "2026-03-28",
+    rating: 4,
+    message: "Good material and comfortable to wear.",
+  },
+];
